@@ -7,9 +7,7 @@ export default function Card(props) {
   return (
     <div onClick={props.handleClick} style={style} className={styles.card}>
       <div>{props.children}</div>
-      <div className={styles.cardBack}>
-        UF🐊
-      </div>
+      <div className={styles.cardBack}>UF🐊</div>
     </div>
   );
 }
